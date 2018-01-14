@@ -1,0 +1,10 @@
+cd /bin; ls | grep list
+# nothing
+cat /etc/passwd | wc -l
+32
+free -h | grep Mem: | awk '{print $2}'
+7.7G
+cat /proc/cpuinfo | grep 'cpu cores' | wc -l
+4
+find ~/Pictures -iname '*.jpg' | wc -l
+0
