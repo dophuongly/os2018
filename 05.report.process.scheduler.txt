@@ -1,0 +1,7 @@
+dophuongly@dophuongly-Vostro-14-5480:~$ cat /proc/sched_debug | awk '$1 == "systemd" { print $2 }'
+1
+989
+dophuongly@dophuongly-Vostro-14-5480:~$ cat /proc/1/sched | grep switches
+nr_switches                                  :                 1572
+nr_voluntary_switches                        :                 1232
+nr_involuntary_switches                      :                  340
